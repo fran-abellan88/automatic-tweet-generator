@@ -27,6 +27,9 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
     chat_id = chat_id or TELEGRAM_CHAT_ID
 
     logger.info("Sending draft: token=%s, chat_id=%s", bool(token), bool(chat_id))
+    print(
+        f"DEBUG: token set={bool(token)}, chat_id set={bool(chat_id)}, chat_id value=[{chat_id}]"
+    )
 
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()
@@ -112,8 +115,14 @@ def send_notification(text: str, token: str = "", chat_id: str = "") -> None:
     url = f"{TELEGRAM_API.format(token=token)}/sendMessage"
     response = httpx.post(
         url,
-        json={"chat_id": chat_id, "text": text},
+        json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=HTTP_TIMEOUT,
+    )
+    print(
+        f"DEBUG: Telegram response status={response.status_code}, body={response.text}"
+    )
+    logger.error(
+        "Telegram response status=%d, body=%s", response.status_code, response.text
     )
     response.raise_for_status()
 

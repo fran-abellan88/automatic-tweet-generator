@@ -27,11 +27,19 @@ class ContentCategory(str, Enum):
     BLOG = "blog"
 
 
-RELEASE_KEYWORDS = {"release", "launch", "announce", "announcing", "introduces", "unveiled", "open-source", "open source"}
+RELEASE_KEYWORDS = {
+    "release",
+    "launch",
+    "announce",
+    "announcing",
+    "introduces",
+    "unveiled",
+    "open-source",
+    "open source",
+}
 
 SOURCE_CATEGORY_MAP: dict[str, ContentCategory] = {
     "ArXiv CS.AI+CS.LG": ContentCategory.RESEARCH,
-    "Papers With Code": ContentCategory.RESEARCH,
     "TechCrunch AI": ContentCategory.NEWS,
     "VentureBeat AI": ContentCategory.NEWS,
     "The Verge AI": ContentCategory.NEWS,
