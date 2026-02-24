@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test AI News</title>
+    <link>https://example.com</link>
+    <description>AI news for testing</description>
+    <item>
+      <title>New GPT-5 Model Released by OpenAI</title>
+      <link>https://example.com/gpt5-release</link>
+      <description>OpenAI has released GPT-5 with significant improvements in reasoning and coding abilities.</description>
+      <pubDate>Mon, 24 Feb 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind Achieves SOTA on Math Benchmarks</title>
+      <link>https://example.com/deepmind-math</link>
+      <description>DeepMind's latest model sets new state-of-the-art performance on major math benchmarks.</description>
+      <pubDate>Mon, 24 Feb 2026 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Open Source LLM Llama 4 Announcement</title>
+      <link>https://example.com/llama4</link>
+      <description>Meta announces Llama 4 with improved multilingual support and efficiency.</description>
+      <pubDate>Sun, 23 Feb 2026 15:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+[
+  {
+    "news_url": "https://example.com/gpt5-release",
+    "news_title": "New GPT-5 Model Released by OpenAI",
+    "tweet_text": "GPT-5 just dropped and the reasoning benchmarks are wild \ud83e\udd2f OpenAI really went all-in on coding abilities this time. https://example.com/gpt5-release #AI #GPT5 #LLM"
+  },
+  {
+    "news_url": "https://example.com/llama4",
+    "news_title": "Open Source LLM Llama 4 Announcement",
+    "tweet_text": "Meta just open-sourced Llama 4 \u2014 multilingual support is finally on par with closed models \ud83d\udd25 Competition in the LLM space keeps heating up https://example.com/llama4 #AI #OpenSource #Llama"
+  }
+]
