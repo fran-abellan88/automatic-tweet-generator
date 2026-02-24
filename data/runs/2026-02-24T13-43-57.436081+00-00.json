@@ -1,0 +1,358 @@
+{
+  "timestamp": "2026-02-24T13:43:57.436081+00:00",
+  "total_fetched": 2474,
+  "after_dedup": 50,
+  "candidates": [
+    {
+      "title": "Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series",
+      "url": "https://arxiv.org/abs/2602.18473",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2602.18493",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications",
+      "url": "https://arxiv.org/abs/2602.18582",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": true
+    },
+    {
+      "title": "Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System",
+      "url": "https://arxiv.org/abs/2602.18640",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": true
+    },
+    {
+      "title": "Adaptive Time Series Reasoning via Segment Selection",
+      "url": "https://arxiv.org/abs/2602.18645",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": true
+    },
+    {
+      "title": "Information-Guided Noise Allocation for Efficient Diffusion Training",
+      "url": "https://arxiv.org/abs/2602.18647",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Transformers for dynamical systems learn transfer operators in-context",
+      "url": "https://arxiv.org/abs/2602.18679",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse",
+      "url": "https://arxiv.org/abs/2602.18710",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Beyond Description: A Multimodal Agent Framework for Insightful Chart Summarization",
+      "url": "https://arxiv.org/abs/2602.18731",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "HONEST-CAV: Hierarchical Optimization of Network Signals and Trajectories for Connected and Automated Vehicles with Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2602.18740",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Federated Reasoning Distillation Framework with Model Learnability-Aware Data Allocation",
+      "url": "https://arxiv.org/abs/2602.18749",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "LAMMI-Pathology: A Tool-Centric Bottom-Up LVLM-Agent Framework for Molecularly Informed Medical Intelligence in Pathology",
+      "url": "https://arxiv.org/abs/2602.18773",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "GenPlanner: From Noise to Plans -- Emergent Reasoning in Flow Matching and Diffusion Models",
+      "url": "https://arxiv.org/abs/2602.18812",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Exact Attention Sensitivity and the Geometry of Transformer Stability",
+      "url": "https://arxiv.org/abs/2602.18849",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "TRUE: A Trustworthy Unified Explanation Framework for Large Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2602.18905",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Early Evidence of Vibe-Proving with Consumer LLMs: A Case Study on Spectral Region Characterization with ChatGPT-5.2 (Thinking)",
+      "url": "https://arxiv.org/abs/2602.18918",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "DREAM: Deep Research Evaluation with Agentic Metrics",
+      "url": "https://arxiv.org/abs/2602.18940",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Toward Manifest Relationality in Transformers via Symmetry Reduction",
+      "url": "https://arxiv.org/abs/2602.18948",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Incremental Transformer Neural Processes",
+      "url": "https://arxiv.org/abs/2602.18955",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Benchmark Test-Time Scaling of General LLM Agents",
+      "url": "https://arxiv.org/abs/2602.18998",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "MagicAgent: Towards Generalized Agent Planning",
+      "url": "https://arxiv.org/abs/2602.19000",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Back to Blackwell: Closing the Loop on Intransitivity in Multi-Objective Preference Fine-Tuning",
+      "url": "https://arxiv.org/abs/2602.19041",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Agentic Problem Frames: A Systematic Approach to Engineering Reliable Domain Agents",
+      "url": "https://arxiv.org/abs/2602.19065",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "IDLM: Inverse-distilled Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2602.19066",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Asking the Right Questions: Improving Reasoning with Generated Stepping Stones",
+      "url": "https://arxiv.org/abs/2602.19069",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Post-Routing Arithmetic in Llama-3: Last-Token Result Writing and Rotation-Structured Digit Directions",
+      "url": "https://arxiv.org/abs/2602.19109",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Incremental Learning of Sparse Attention Patterns in Transformers",
+      "url": "https://arxiv.org/abs/2602.19143",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Reasoning Capabilities of Large Language Models. Lessons Learned from General Game Playing",
+      "url": "https://arxiv.org/abs/2602.19160",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Virtual Parameter Sharpening: Dynamic Low-Rank Perturbations for Inference-Time Reasoning Enhancement",
+      "url": "https://arxiv.org/abs/2602.19169",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Characterizing MARL for Energy Control: A Multi-KPI Benchmark on the CityLearn Environment",
+      "url": "https://arxiv.org/abs/2602.19223",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Proximity-Based Multi-Turn Optimization: Practical Credit Assignment for LLM Agent Training",
+      "url": "https://arxiv.org/abs/2602.19225",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Topology of Reasoning: Retrieved Cell Complex-Augmented Generation for Textual Graph Question Answering",
+      "url": "https://arxiv.org/abs/2602.19240",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "DGPO: RL-Steered Graph Diffusion for Neural Architecture Generation",
+      "url": "https://arxiv.org/abs/2602.19261",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Limited Reasoning Space: The cage of long-horizon reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2602.19281",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "CTS-Bench: Benchmarking Graph Coarsening Trade-offs for GNNs in Clock Tree Synthesis",
+      "url": "https://arxiv.org/abs/2602.19330",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Federated Causal Representation Learning in State-Space Systems for Decentralized Counterfactual Reasoning",
+      "url": "https://arxiv.org/abs/2602.19414",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "OptiRepair: Closed-Loop Diagnosis and Repair of Supply Chain Optimization Models with LLM Agents",
+      "url": "https://arxiv.org/abs/2602.19439",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning",
+      "url": "https://arxiv.org/abs/2602.19455",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "ComplLLM: Fine-tuning LLMs to Discover Complementary Signals for Decision-making",
+      "url": "https://arxiv.org/abs/2602.19458",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare Benchmark",
+      "url": "https://arxiv.org/abs/2602.19502",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Variational Trajectory Optimization of Anisotropic Diffusion Schedules",
+      "url": "https://arxiv.org/abs/2602.19512",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Classroom Final Exam: An Instructor-Tested Reasoning Benchmark",
+      "url": "https://arxiv.org/abs/2602.19517",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "ISO-Bench: Can Coding Agents Optimize Real-World Inference Workloads?",
+      "url": "https://arxiv.org/abs/2602.19594",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Is Your Diffusion Sampler Actually Correct? A Sampler-Centric Evaluation of Discrete Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2602.19619",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "VecFormer: Towards Efficient and Generalizable Graph Transformer with Graph Token Attention",
+      "url": "https://arxiv.org/abs/2602.19622",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents",
+      "url": "https://arxiv.org/abs/2602.19633",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "Representation Stability in a Minimal Continual Learning Agent",
+      "url": "https://arxiv.org/abs/2602.19655",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+      "url": "https://arxiv.org/abs/2602.19672",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling",
+      "url": "https://arxiv.org/abs/2602.19685",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    },
+    {
+      "title": "OpenClaw, Moltbook, and ClawdLab: From Agent-Only Social Networks to Autonomous Scientific Research",
+      "url": "https://arxiv.org/abs/2602.19810",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 1.2000000000000002,
+      "selected": false
+    }
+  ],
+  "drafts_generated": 3
+}

@@ -1,4 +1,5 @@
 import logging
+import sys
 from dataclasses import dataclass
 
 import httpx
@@ -6,6 +7,7 @@ import httpx
 from src.config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 from src.models import CATEGORY_EMOJI, TweetDraft
 
+print("DEBUG: telegram/bot.py loaded", flush=True)
 logger = logging.getLogger(__name__)
 
 TELEGRAM_API = "https://api.telegram.org/bot{token}"
@@ -30,6 +32,9 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
     print(
         f"DEBUG: token set={bool(token)}, chat_id set={bool(chat_id)}, chat_id value=[{chat_id}]"
     )
+    import sys
+
+    sys.stdout.flush()
 
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()
