@@ -102,18 +102,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://arxiv.org/abs/2602.18710",
-      "news_title": "[ArXiv CS.AI+CS.LG] Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse: arXiv:2602.18710v1",
-      "tweet_text": "Agents for data science: multiple AI analysts on one dataset. Reinforces what we already know — the model's 'conclusions' are often more about the analytic decisions made upstream. Not just the data.",
-      "source_score": 0.9600000000000002,
-      "category": "research",
-      "status": "pending",
-      "telegram_message_id": 566,
-      "created_at": "2026-02-24T18:19:19.547520+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://arxiv.org/abs/2602.18731",
       "news_title": "[ArXiv CS.AI+CS.LG] Beyond Description: A Multimodal Agent Framework for Insightful Chart Summarization: arXiv:2602.18731v1",
       "tweet_text": "Multimodal agents trying to summarize charts 'insightfully,' not just descriptively. The bar for 'insight' keeps moving. We'll see how far beyond a glorified caption this goes.",
@@ -150,7 +138,19 @@
       "created_at": "2026-02-24T17:14:46.111949+00:00",
       "published_at": "2026-02-24T17:27:50.334684",
       "tweet_id": "2026348354850996504"
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18710",
+      "news_title": "[ArXiv CS.AI+CS.LG] Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse: arXiv:2602.18710v1",
+      "tweet_text": "Agents for data science: multiple AI analysts on one dataset. Reinforces what we already know — the model's 'conclusions' are often more about the analytic decisions made upstream. Not just the data.",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "published",
+      "telegram_message_id": 566,
+      "created_at": "2026-02-24T18:19:19.547520+00:00",
+      "published_at": "2026-02-24T19:30:13.507500",
+      "tweet_id": "2026379154275316119"
     }
   ],
-  "last_telegram_update_id": 761143069
+  "last_telegram_update_id": 761143070
 }
