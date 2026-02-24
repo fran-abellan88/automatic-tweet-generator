@@ -38,4 +38,17 @@ SOURCES: list[NewsSource] = [
         "Google AI Blog", "https://blog.google/technology/ai/rss/", "blog", 0.75
     ),
     NewsSource("OpenAI Blog", "https://openai.com/blog/rss.xml", "blog", 0.9),
+    NewsSource(
+        "Microsoft AI Blog",
+        "https://www.microsoft.com/en-us/ai/blog/feed",
+        "blog",
+        0.75,
+    ),
+    NewsSource("Google DeepMind", "https://deepmind.com/blog/rss.xml", "blog", 0.8),
+    NewsSource(
+        "MIT News AI",
+        "https://news.mit.edu/topic/artificial-intelligence2/feed",
+        "news",
+        0.8,
+    ),
 ]

@@ -47,6 +47,9 @@ SOURCE_CATEGORY_MAP: dict[str, ContentCategory] = {
     "Hugging Face Blog": ContentCategory.BLOG,
     "Google AI Blog": ContentCategory.BLOG,
     "OpenAI Blog": ContentCategory.BLOG,
+    "Microsoft AI Blog": ContentCategory.BLOG,
+    "Google DeepMind": ContentCategory.BLOG,
+    "MIT News AI": ContentCategory.NEWS,
 }
 
 CATEGORY_EMOJI: dict[ContentCategory, str] = {
