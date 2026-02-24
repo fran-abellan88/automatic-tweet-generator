@@ -26,6 +26,8 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
     token = token or TELEGRAM_BOT_TOKEN
     chat_id = chat_id or TELEGRAM_CHAT_ID
 
+    logger.info("Sending draft: token=%s, chat_id=%s", bool(token), bool(chat_id))
+
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()
     score_display = f"{draft.source_score:.2f}"
@@ -44,14 +46,20 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
         json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=HTTP_TIMEOUT,
     )
+    if response.status_code != 200:
+        logger.error("Telegram API error: %s", response.text)
     response.raise_for_status()
 
     message_id: int = response.json()["result"]["message_id"]
-    logger.info("Sent draft to Telegram (message_id=%d): %s", message_id, draft.news_title[:50])
+    logger.info(
+        "Sent draft to Telegram (message_id=%d): %s", message_id, draft.news_title[:50]
+    )
     return message_id
 
 
-def check_approvals(last_update_id: int, token: str = "", chat_id: str = "") -> list[TelegramDecision]:
+def check_approvals(
+    last_update_id: int, token: str = "", chat_id: str = ""
+) -> list[TelegramDecision]:
     token = token or TELEGRAM_BOT_TOKEN
     chat_id = chat_id or TELEGRAM_CHAT_ID
 
