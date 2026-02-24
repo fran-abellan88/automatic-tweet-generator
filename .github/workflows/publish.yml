@@ -2,7 +2,7 @@ name: Publish Approved Tweets
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
+    - cron: '*/30 10-21 * * *'  # Every 30 min, 11:00-22:00 CET (UTC+1)
   workflow_dispatch: {}
 
 concurrency:
