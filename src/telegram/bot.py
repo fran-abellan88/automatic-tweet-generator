@@ -28,20 +28,20 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
 
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()
-    score_display = _escape_markdown(f"{draft.source_score:.2f}")
+    score_display = f"{draft.source_score:.2f}"
 
     text = (
-        f"{cat_emoji} *{cat_label}* \\| Score: {score_display}\n\n"
-        f"{_escape_markdown(draft.tweet_text)}\n\n"
-        f"📰 {_escape_markdown(draft.news_title)}\n"
-        f"🔗 {_escape_markdown(draft.news_url)}\n\n"
-        "_Reply ✅ to approve or ❌ to reject_"
+        f"{cat_emoji} <b>{cat_label}</b> | Score: {score_display}\n\n"
+        f"{_escape_html(draft.tweet_text)}\n\n"
+        f"📰 {_escape_html(draft.news_title)}\n"
+        f"🔗 {draft.news_url}\n\n"
+        "<i>Reply ✅ to approve or ❌ to reject</i>"
     )
 
     url = f"{TELEGRAM_API.format(token=token)}/sendMessage"
     response = httpx.post(
         url,
-        json={"chat_id": chat_id, "text": text, "parse_mode": "MarkdownV2"},
+        json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=HTTP_TIMEOUT,
     )
     response.raise_for_status()
@@ -109,7 +109,5 @@ def send_notification(text: str, token: str = "", chat_id: str = "") -> None:
     response.raise_for_status()
 
 
-def _escape_markdown(text: str) -> str:
-    for char in ("_", "*", "[", "]", "(", ")", "~", "`", ">", "#", "+", "-", "=", "|", "{", "}", ".", "!"):
-        text = text.replace(char, f"\\{char}")
-    return text
+def _escape_html(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")

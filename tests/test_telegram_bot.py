@@ -41,8 +41,8 @@ class TestSendDraft:
         body = call_args.kwargs["json"]
         assert body["chat_id"] == "123"
         assert "RESEARCH" in body["text"]
-        assert "1\\.20" in body["text"]
-        assert body["parse_mode"] == "MarkdownV2"
+        assert "1.20" in body["text"]
+        assert body["parse_mode"] == "HTML"
 
     def test_raises_on_http_error(self) -> None:
         response = _mock_response({"ok": False}, status_code=400)
