@@ -2,9 +2,49 @@
   "seen_urls": [
     "https://techcrunch.com/2026/02/24/nimble-way-raises-47m-to-give-ai-agents-better-cleaner-data/",
     "https://arxiv.org/abs/2602.18473",
-    "https://arxiv.org/abs/2602.18493"
+    "https://arxiv.org/abs/2602.18493",
+    "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/",
+    "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+    "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/"
   ],
-  "pending_drafts": [],
+  "pending_drafts": [
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/",
+      "news_title": "Oura launches a proprietary AI model focused on women’s health",
+      "tweet_text": "Oura's new AI model for women's health? This is HUGE! From menstrual cycles to menopause, an AI that actually gets it. What do you think this means for personalized health? 💖🩺 #AI #WomensHealth #HealthTech",
+      "source_score": 1.275,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 550,
+      "created_at": "2026-02-24T17:08:06.934200+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance,engineering,and-design/",
+      "news_title": "Anthropic launches new push for enterprise agents with plugins for finance, engineering, and design",
+      "tweet_text": "Anthropic's new enterprise agents with plugins for finance, engineering, & design are a game-changer. Is this the end for some specialized SaaS? The AI assistant era is officially here! 🚀💼 #LLM #EnterpriseAI #DataScience",
+      "source_score": 0.0,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 551,
+      "created_at": "2026-02-24T17:08:06.934200+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+      "news_title": "New Relic launches new AI agent platform and OpenTelemetry tools",
+      "tweet_text": "New Relic just launched an AI agent platform + OpenTelemetry tools! More control, better insights for your AI agents. This is a big step for MLOps and keeping an eye on those complex systems. 📊🤖 #Observability #AIagents #MLOps",
+      "source_score": 1.275,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 552,
+      "created_at": "2026-02-24T17:08:06.934200+00:00",
+      "published_at": null,
+      "tweet_id": null
+    }
+  ],
   "published_tweets": [],
   "last_telegram_update_id": 0
 }
