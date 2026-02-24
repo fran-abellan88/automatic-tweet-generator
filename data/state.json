@@ -5,7 +5,10 @@
     "https://arxiv.org/abs/2602.18493",
     "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/",
     "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
-    "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/"
+    "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+    "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+    "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+    "https://arxiv.org/abs/2602.18582"
   ],
   "pending_drafts": [
     {
@@ -41,6 +44,42 @@
       "status": "pending",
       "telegram_message_id": 552,
       "created_at": "2026-02-24T17:08:06.934200+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+      "news_title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox: The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent.",
+      "tweet_text": "An AI agent gone rogue in a Meta researcher's inbox?! This isn't sci-fi, it's a real warning about delegating tasks to AI. Inbox zero or inbox apocalypse? Choose wisely! 🤯🤖 #AI #AISecurity #TechEthics",
+      "source_score": 1.02,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 554,
+      "created_at": "2026-02-24T17:14:46.111949+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "news_title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports: Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
+      "tweet_text": "Anthropic is accusing Chinese labs of \"mining\" Claude via 24,000 fake accounts. Talk about AI intellectual property drama! This really spices up the US AI chip export debate. 🤯⚔️ #LLM #AIethics #Geopolitics",
+      "source_score": 1.02,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 555,
+      "created_at": "2026-02-24T17:14:46.111949+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18582",
+      "news_title": "[ArXiv CS.AI+CS.LG] Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications: arXiv:2602.18582v1 Announce Type: new Abstract: When training artificial intelligence (AI) to perform tasks, humans often care not only about whether a task is completed but also how it is performed.",
+      "tweet_text": "It's not just about what AI *does*, but *how* it does it! 🧐 This new arXiv paper tackles AI alignment with \"Hierarchical Reward Design from Language.\" Super important for truly human-aligned agents. 🧠✨ #AI #MachineLearning #Alignment",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 556,
+      "created_at": "2026-02-24T17:14:46.111949+00:00",
       "published_at": null,
       "tweet_id": null
     }
