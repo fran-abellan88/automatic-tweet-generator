@@ -28,20 +28,20 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
 
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()
-    score_display = f"{draft.source_score:.2f}"
+    score_display = _escape_markdown(f"{draft.source_score:.2f}")
 
     text = (
-        f"{cat_emoji} *{cat_label}* | Score: {score_display}\n\n"
+        f"{cat_emoji} *{cat_label}* \\| Score: {score_display}\n\n"
         f"{_escape_markdown(draft.tweet_text)}\n\n"
         f"📰 {_escape_markdown(draft.news_title)}\n"
-        f"🔗 {draft.news_url}\n\n"
+        f"🔗 {_escape_markdown(draft.news_url)}\n\n"
         "_Reply ✅ to approve or ❌ to reject_"
     )
 
     url = f"{TELEGRAM_API.format(token=token)}/sendMessage"
     response = httpx.post(
         url,
-        json={"chat_id": chat_id, "text": text, "parse_mode": "Markdown"},
+        json={"chat_id": chat_id, "text": text, "parse_mode": "MarkdownV2"},
         timeout=HTTP_TIMEOUT,
     )
     response.raise_for_status()

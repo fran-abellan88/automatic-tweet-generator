@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import httpx
 
-from src.models import TweetDraft
+from src.models import ContentCategory, TweetDraft
 from src.telegram.bot import check_approvals, send_draft
 
 
@@ -16,11 +16,15 @@ def _mock_response(json_data: dict, status_code: int = 200) -> httpx.Response:
     )
 
 
-def _make_draft() -> TweetDraft:
+def _make_draft(
+    category: ContentCategory = ContentCategory.RESEARCH, score: float = 1.2,
+) -> TweetDraft:
     return TweetDraft(
         news_url="https://example.com/article",
         news_title="Test Article Title",
         tweet_text="This is a test tweet about AI! #AI #ML",
+        source_score=score,
+        category=category,
         created_at="2026-02-24T10:00:00",
     )
 
@@ -36,7 +40,9 @@ class TestSendDraft:
         assert "test-token" in call_args.args[0]
         body = call_args.kwargs["json"]
         assert body["chat_id"] == "123"
-        assert "Tweet Draft" in body["text"]
+        assert "RESEARCH" in body["text"]
+        assert "1\\.20" in body["text"]
+        assert body["parse_mode"] == "MarkdownV2"
 
     def test_raises_on_http_error(self) -> None:
         response = _mock_response({"ok": False}, status_code=400)

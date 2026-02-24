@@ -1,4 +1,3 @@
-from src.config import MAX_TWEET_LENGTH
 from src.models import NewsItem
 
 # Twitter shortens URLs to 23 chars. We append the URL ourselves, so Gemini
