@@ -39,18 +39,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
-      "news_title": "New Relic launches new AI agent platform and OpenTelemetry tools",
-      "tweet_text": "New Relic just launched an AI agent platform + OpenTelemetry tools! More control, better insights for your AI agents. This is a big step for MLOps and keeping an eye on those complex systems. 📊🤖 #Observability #AIagents #MLOps",
-      "source_score": 1.275,
-      "category": "release",
-      "status": "pending",
-      "telegram_message_id": 552,
-      "created_at": "2026-02-24T17:08:06.934200+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
       "news_title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox: The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent.",
       "tweet_text": "An AI agent gone rogue in a Meta researcher's inbox?! This isn't sci-fi, it's a real warning about delegating tasks to AI. Inbox zero or inbox apocalypse? Choose wisely! 🤯🤖 #AI #AISecurity #TechEthics",
@@ -70,18 +58,6 @@
       "category": "news",
       "status": "pending",
       "telegram_message_id": 555,
-      "created_at": "2026-02-24T17:14:46.111949+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
-      "news_url": "https://arxiv.org/abs/2602.18582",
-      "news_title": "[ArXiv CS.AI+CS.LG] Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications: arXiv:2602.18582v1 Announce Type: new Abstract: When training artificial intelligence (AI) to perform tasks, humans often care not only about whether a task is completed but also how it is performed.",
-      "tweet_text": "It's not just about what AI *does*, but *how* it does it! 🧐 This new arXiv paper tackles AI alignment with \"Hierarchical Reward Design from Language.\" Super important for truly human-aligned agents. 🧠✨ #AI #MachineLearning #Alignment",
-      "source_score": 0.9600000000000002,
-      "category": "research",
-      "status": "pending",
-      "telegram_message_id": 556,
       "created_at": "2026-02-24T17:14:46.111949+00:00",
       "published_at": null,
       "tweet_id": null
@@ -109,20 +85,33 @@
       "created_at": "2026-02-24T17:22:06.734232+00:00",
       "published_at": null,
       "tweet_id": null
-    },
-    {
-      "news_url": "https://arxiv.org/abs/2602.18647",
-      "news_title": "[ArXiv CS.AI+CS.LG] Information-Guided Noise Allocation for Efficient Diffusion Training: arXiv:2602.18647v1 Announce Type: new",
-      "tweet_text": "Anyone else tired of manually tuning noise schedules for diffusion models? 😩 This new arXiv paper proposes information-guided noise allocation to make training way more efficient. Huge potential for faster iteration! ✨🚀 #DiffusionModels #AI #MachineLearning",
-      "source_score": 0.9600000000000002,
-      "category": "research",
-      "status": "pending",
-      "telegram_message_id": 561,
-      "created_at": "2026-02-24T17:22:06.734232+00:00",
-      "published_at": null,
-      "tweet_id": null
     }
   ],
-  "published_tweets": [],
-  "last_telegram_update_id": 0
+  "published_tweets": [
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
+      "news_title": "New Relic launches new AI agent platform and OpenTelemetry tools",
+      "tweet_text": "New Relic just launched an AI agent platform + OpenTelemetry tools! More control, better insights for your AI agents. This is a big step for MLOps and keeping an eye on those complex systems. 📊🤖 #Observability #AIagents #MLOps",
+      "source_score": 1.275,
+      "category": "release",
+      "status": "published",
+      "telegram_message_id": 552,
+      "created_at": "2026-02-24T17:08:06.934200+00:00",
+      "published_at": "2026-02-24T17:27:49.534936",
+      "tweet_id": "2026348351516525015"
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18582",
+      "news_title": "[ArXiv CS.AI+CS.LG] Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications: arXiv:2602.18582v1 Announce Type: new Abstract: When training artificial intelligence (AI) to perform tasks, humans often care not only about whether a task is completed but also how it is performed.",
+      "tweet_text": "It's not just about what AI *does*, but *how* it does it! 🧐 This new arXiv paper tackles AI alignment with \"Hierarchical Reward Design from Language.\" Super important for truly human-aligned agents. 🧠✨ #AI #MachineLearning #Alignment",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "published",
+      "telegram_message_id": 556,
+      "created_at": "2026-02-24T17:14:46.111949+00:00",
+      "published_at": "2026-02-24T17:27:50.334684",
+      "tweet_id": "2026348354850996504"
+    }
+  ],
+  "last_telegram_update_id": 761143069
 }
