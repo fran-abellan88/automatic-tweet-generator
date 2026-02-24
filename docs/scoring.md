@@ -59,10 +59,18 @@ Applied if any of the following keywords appear (case-insensitive) in the articl
 
 ## Score range
 
-| Scenario | Calculation | Score |
-|---|---|---|
-| Maximum possible | 0.90 × 1.0 × 1.5 | **1.35** |
-| Lowest publishable | 0.70 × 0.5 × 1.0 | **0.35** |
-| Article older than 48h | any × 0.0 × any | **0.0** (discarded) |
+Scores are normalized to a **0–10 scale** using the theoretical maximum raw score (0.9 × 1.0 × 1.5 = 1.35):
 
-The top `MAX_DRAFTS_PER_RUN = 3` items by score are sent to Gemini for tweet generation. The `source_score` value shown in the Telegram draft message is this final score.
+```
+final_score = round(raw_score / 1.35 × 10, 2)
+```
+
+| Scenario | Raw | Score (0–10) |
+|---|---|---|
+| Maximum possible | 0.90 × 1.0 × 1.5 = 1.35 | **10.0** |
+| High-quality news, fresh, keyword | 0.85 × 1.0 × 1.5 = 1.275 | **9.44** |
+| Typical news, 12–24h, no keyword | 0.85 × 0.8 × 1.0 = 0.68 | **5.04** |
+| Lowest non-zero | 0.70 × 0.5 × 1.0 = 0.35 | **2.59** |
+| Article older than 48h | any × 0.0 × any = 0 | **0.0** (discarded) |
+
+The top item per source category (arxiv / news / blog) is selected per run. The `source_score` shown in the Telegram draft message is this 0–10 value.

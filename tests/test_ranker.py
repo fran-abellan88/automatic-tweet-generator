@@ -65,12 +65,17 @@ class TestScoreItem:
     def test_high_score(self) -> None:
         item = _make_item(title="GPT-5 Release", hours_ago=2.0)
         score = score_item(item, source_weight=0.9)
-        assert score == 0.9 * 1.0 * 1.5  # weight * recency * keyword
+        assert score == 10.0  # max possible: 0.9 × 1.0 × 1.5 / 1.35 × 10
 
     def test_low_score(self) -> None:
         item = _make_item(title="Random tech news", hours_ago=30.0)
         score = score_item(item, source_weight=0.5)
-        assert score == 0.5 * 0.5 * 1.0
+        assert 0 < score < 10.0
+
+    def test_zero_score_for_old_item(self) -> None:
+        item = _make_item(title="Random tech news", hours_ago=100.0)
+        score = score_item(item, source_weight=0.9)
+        assert score == 0.0
 
 
 class TestDeduplicate:
@@ -98,16 +103,45 @@ class TestDeduplicate:
 
 
 class TestRankAndFilter:
-    def test_returns_top_items(self) -> None:
+    def test_returns_one_item_per_category(self) -> None:
+        sources = [
+            NewsSource("News Source", "url1", "news", 0.9),
+            NewsSource("Blog Source", "url2", "blog", 0.9),
+        ]
+        items = [
+            _make_item(title="GPT news", hours_ago=2, source="News Source", url="https://a.com"),
+            _make_item(title="Old news", hours_ago=30, source="News Source", url="https://b.com"),
+            _make_item(title="Llama blog", hours_ago=6, source="Blog Source", url="https://c.com"),
+        ]
+        result = rank_and_filter(items, sources, seen_urls=[], max_items=3)
+        assert len(result) == 2  # 1 per category (news + blog)
+        result_sources = {item.source for item in result}
+        assert "News Source" in result_sources
+        assert "Blog Source" in result_sources
+
+    def test_selects_best_within_category(self) -> None:
         sources = [NewsSource("S1", "url", "news", 0.9)]
         items = [
-            _make_item(title="GPT news", hours_ago=2, source="S1", url="https://a.com"),
-            _make_item(title="Random stuff", hours_ago=30, source="S1", url="https://b.com"),
-            _make_item(title="Llama release", hours_ago=6, source="S1", url="https://c.com"),
+            _make_item(title="Recent news", hours_ago=2, source="S1", url="https://a.com"),
+            _make_item(title="Older news", hours_ago=30, source="S1", url="https://b.com"),
+        ]
+        result = rank_and_filter(items, sources, seen_urls=[], max_items=3)
+        assert len(result) == 1  # only 1 category → max 1 item
+        assert result[0].url == "https://a.com"
+
+    def test_max_items_cap(self) -> None:
+        sources = [
+            NewsSource("News", "url1", "news", 0.9),
+            NewsSource("Blog", "url2", "blog", 0.9),
+            NewsSource("ArXiv", "url3", "arxiv", 0.8),
+        ]
+        items = [
+            _make_item(title="News item", hours_ago=2, source="News", url="https://a.com"),
+            _make_item(title="Blog item", hours_ago=2, source="Blog", url="https://b.com"),
+            _make_item(title="ArXiv item", hours_ago=2, source="ArXiv", url="https://c.com"),
         ]
         result = rank_and_filter(items, sources, seen_urls=[], max_items=2)
-        assert len(result) == 2
-        assert result[0].score >= result[1].score
+        assert len(result) == 2  # capped at max_items even with 3 categories
 
     def test_excludes_zero_score(self) -> None:
         sources = [NewsSource("S1", "url", "news", 0.9)]

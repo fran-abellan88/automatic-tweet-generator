@@ -10,10 +10,15 @@ from src.news.sources import NewsSource
 logger = logging.getLogger(__name__)
 
 
+# Theoretical maximum: best source weight (0.9) × max recency (1.0) × keyword boost (1.5)
+_MAX_RAW_SCORE = 0.9 * 1.0 * 1.5  # = 1.35
+
+
 def score_item(item: NewsItem, source_weight: float) -> float:
     recency = _recency_score(item.published)
     keyword = _keyword_boost(item.title)
-    return source_weight * recency * keyword
+    raw = source_weight * recency * keyword
+    return round(raw / _MAX_RAW_SCORE * 10, 2)
 
 
 def _recency_score(published: str) -> float:
@@ -74,6 +79,7 @@ def rank_and_filter(
     max_items: int = 5,
 ) -> list[NewsItem]:
     source_weights = {s.name: s.weight for s in sources}
+    source_categories = {s.name: s.category for s in sources}
 
     for item in items:
         weight = source_weights.get(item.source, 0.5)
@@ -83,5 +89,20 @@ def rank_and_filter(
     deduped = deduplicate(filtered, seen_urls)
     ranked = sorted(deduped, key=lambda x: x.score, reverse=True)
 
-    logger.info("Ranked %d items from %d total (after dedup from %d)", len(ranked[:max_items]), len(ranked), len(items))
-    return ranked[:max_items]
+    # Select the top-scored item per source category (arxiv / news / blog)
+    # to ensure content diversity in each generation run.
+    selected: list[NewsItem] = []
+    seen_categories: set[str] = set()
+    for item in ranked:
+        category = source_categories.get(item.source, "news")
+        if category not in seen_categories:
+            selected.append(item)
+            seen_categories.add(category)
+        if len(selected) >= max_items:
+            break
+
+    logger.info(
+        "Ranked %d items from %d total (after dedup from %d)",
+        len(selected), len(ranked), len(items),
+    )
+    return selected

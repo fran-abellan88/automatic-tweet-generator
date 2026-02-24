@@ -23,7 +23,7 @@ SOURCES: list[NewsSource] = [
         0.85,
     ),
     NewsSource(
-        "VentureBeat AI", "https://venturebeat.com/category/ai/feed/", "news", 0.85
+        "VentureBeat AI", "https://venturebeat.com/category/ai/feed", "news", 0.85
     ),
     NewsSource(
         "The Verge AI",
@@ -35,16 +35,19 @@ SOURCES: list[NewsSource] = [
         "Hugging Face Blog", "https://huggingface.co/blog/feed.xml", "blog", 0.7
     ),
     NewsSource(
-        "Google AI Blog", "https://blog.google/technology/ai/rss/", "blog", 0.75
-    ),
-    NewsSource("OpenAI Blog", "https://openai.com/blog/rss.xml", "blog", 0.9),
-    NewsSource(
-        "Microsoft AI Blog",
-        "https://www.microsoft.com/en-us/ai/blog/feed",
+        "Google AI Blog",
+        "https://blog.google/innovation-and-ai/technology/ai/rss/",
         "blog",
         0.75,
     ),
-    NewsSource("Google DeepMind", "https://deepmind.com/blog/rss.xml", "blog", 0.8),
+    NewsSource("OpenAI Blog", "https://openai.com/news/rss.xml", "blog", 0.9),
+    NewsSource(
+        "Microsoft AI Blog",
+        "https://www.microsoft.com/en-us/ai/blog/feed/",
+        "blog",
+        0.75,
+    ),
+    NewsSource("Google DeepMind", "https://deepmind.google/blog/rss.xml", "blog", 0.8),
     NewsSource(
         "MIT News AI",
         "https://news.mit.edu/topic/artificial-intelligence2/feed",

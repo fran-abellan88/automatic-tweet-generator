@@ -9,11 +9,14 @@ from src.news.sources import NewsSource
 logger = logging.getLogger(__name__)
 
 HTTP_TIMEOUT = 10.0
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; RSSReader/1.0)"}
 
 
 def fetch_feed(source: NewsSource) -> list[NewsItem]:
     try:
-        response = httpx.get(source.url, timeout=HTTP_TIMEOUT, follow_redirects=True)
+        response = httpx.get(
+            source.url, timeout=HTTP_TIMEOUT, follow_redirects=True, headers=HEADERS
+        )
         response.raise_for_status()
     except httpx.HTTPError as e:
         logger.warning("Failed to fetch %s: %s", source.name, e)
