@@ -8,7 +8,10 @@
     "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/",
     "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
     "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-    "https://arxiv.org/abs/2602.18582"
+    "https://arxiv.org/abs/2602.18582",
+    "https://arxiv.org/abs/2602.18640",
+    "https://arxiv.org/abs/2602.18645",
+    "https://arxiv.org/abs/2602.18647"
   ],
   "pending_drafts": [
     {
@@ -80,6 +83,42 @@
       "status": "pending",
       "telegram_message_id": 556,
       "created_at": "2026-02-24T17:14:46.111949+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18640",
+      "news_title": "[ArXiv CS.AI+CS.LG] Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System: arXiv:2602.18640v1 Announce Type: new",
+      "tweet_text": "How do we really know *why* a large-scale ranking system made a decision? This new paper dives into decoding ML decisions with an agentic reasoning framework. Super critical for transparency! 🕵️‍♂️📈 #AI #MachineLearning #ExplainableAI",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 559,
+      "created_at": "2026-02-24T17:22:06.734232+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18645",
+      "news_title": "[ArXiv CS.AI+CS.LG] Adaptive Time Series Reasoning via Segment Selection: arXiv:2602.18645v1 Announce Type: new",
+      "tweet_text": "Time series analysis can be a nightmare, right? Especially when you're just asking a question in plain English. This paper tackles adaptive reasoning by segment selection. Smart way to cut through the noise! 📊🧠 #DataScience #TimeSeries #LLM",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 560,
+      "created_at": "2026-02-24T17:22:06.734232+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.18647",
+      "news_title": "[ArXiv CS.AI+CS.LG] Information-Guided Noise Allocation for Efficient Diffusion Training: arXiv:2602.18647v1 Announce Type: new",
+      "tweet_text": "Anyone else tired of manually tuning noise schedules for diffusion models? 😩 This new arXiv paper proposes information-guided noise allocation to make training way more efficient. Huge potential for faster iteration! ✨🚀 #DiffusionModels #AI #MachineLearning",
+      "source_score": 0.9600000000000002,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 561,
+      "created_at": "2026-02-24T17:22:06.734232+00:00",
       "published_at": null,
       "tweet_id": null
     }
