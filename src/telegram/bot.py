@@ -46,8 +46,9 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
         json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=HTTP_TIMEOUT,
     )
-    if response.status_code != 200:
-        logger.error("Telegram API error: %s", response.text)
+    logger.error(
+        "Telegram response status=%d, body=%s", response.status_code, response.text
+    )
     response.raise_for_status()
 
     message_id: int = response.json()["result"]["message_id"]
