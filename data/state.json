@@ -154,19 +154,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
-      "news_title": "Gemini can now automate some multi-step tasks on Android: Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
-      "tweet_text": "Gemini on Android automating multi-step tasks – rideshare, food delivery. The path from \"smart assistant\" to \"personal agent\" looks like a series of small, practical integrations.",
-      "thread_tweets": [],
-      "source_score": 9.44,
-      "category": "news",
-      "status": "pending",
-      "telegram_message_id": 592,
-      "created_at": "2026-02-25T19:09:00.374609+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/",
       "news_title": "See the whole picture and find the look with Circle to Search: Google Search interface featuring AI-powered tools including an \"AI Overview\" that breaks down an outfit's components and a virtual \"Try it on\" button that visualizes apparel on diverse body types.",
       "tweet_text": "Google's Circle to Search integrates AI for outfit breakdown and virtual try-on. It's an interesting use of vision models for consumer retail. The data challenges for realistic body visualization won't be trivial.",
@@ -253,5 +240,5 @@
       "tweet_id": "2026622428395208960"
     }
   ],
-  "last_telegram_update_id": 761143072
+  "last_telegram_update_id": 761143075
 }
