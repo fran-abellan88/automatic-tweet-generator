@@ -14,7 +14,10 @@
     "https://arxiv.org/abs/2602.18647",
     "https://arxiv.org/abs/2602.18679",
     "https://arxiv.org/abs/2602.18710",
-    "https://arxiv.org/abs/2602.18731"
+    "https://arxiv.org/abs/2602.18731",
+    "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
+    "https://arxiv.org/abs/2602.20197",
+    "https://openai.com/index/arvind-kc-chief-people-officer"
   ],
   "pending_drafts": [
     {
@@ -110,6 +113,42 @@
       "status": "pending",
       "telegram_message_id": 567,
       "created_at": "2026-02-24T18:19:19.547520+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
+      "news_title": "Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model",
+      "tweet_text": "Spanish startup Multiverse Computing drops HyperNova 60B on Hugging Face. Compressed model, open access, claims to beat Mistral. Another data point in the open model performance race.",
+      "source_score": 9.44,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 573,
+      "created_at": "2026-02-25T10:53:42.684242+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.20197",
+      "news_title": "Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning",
+      "tweet_text": "ArXiv paper on controllable exploration in RLVR for multi-modal reasoning. The work on making complex AI systems predictable continues. Always a good sign. #ML",
+      "source_score": 8.89,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 574,
+      "created_at": "2026-02-25T10:53:42.684242+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://openai.com/index/arvind-kc-chief-people-officer",
+      "news_title": "Arvind KC appointed Chief People Officer",
+      "tweet_text": "OpenAI appoints a Chief People Officer. Focus on scaling and culture. The human side of building AGI is rarely simple. Good to see them addressing it head-on.",
+      "source_score": 5.33,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 575,
+      "created_at": "2026-02-25T10:53:42.684242+00:00",
       "published_at": null,
       "tweet_id": null
     }
