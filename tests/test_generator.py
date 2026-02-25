@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
-from src.generation.generator import _parse_response, generate_tweets
+from src.generation.generator import _parse_single_response, generate_tweets
 from src.models import NewsItem, TweetStatus
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
@@ -21,7 +21,7 @@ def _make_item(title: str = "Test Article") -> NewsItem:
 
 class TestParseResponse:
     def test_parses_clean_json(self) -> None:
-        drafts = _parse_response(SAMPLE_RESPONSE)
+        drafts = _parse_single_response(SAMPLE_RESPONSE)
         assert len(drafts) == 2
         assert drafts[0].news_url == "https://example.com/gpt5-release"
         assert drafts[0].status == TweetStatus.PENDING
@@ -29,12 +29,12 @@ class TestParseResponse:
 
     def test_strips_markdown_fences(self) -> None:
         wrapped = f"```json\n{SAMPLE_RESPONSE}\n```"
-        drafts = _parse_response(wrapped)
+        drafts = _parse_single_response(wrapped)
         assert len(drafts) == 2
 
     def test_raises_on_invalid_json(self) -> None:
         try:
-            _parse_response("not json at all")
+            _parse_single_response("not json at all")
             assert False, "Should have raised"
         except json.JSONDecodeError:
             pass
@@ -42,7 +42,7 @@ class TestParseResponse:
     def test_raises_on_missing_keys(self) -> None:
         incomplete = json.dumps([{"news_url": "https://a.com"}])
         try:
-            _parse_response(incomplete)
+            _parse_single_response(incomplete)
             assert False, "Should have raised"
         except KeyError:
             pass

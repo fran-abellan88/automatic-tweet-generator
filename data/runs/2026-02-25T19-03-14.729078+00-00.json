@@ -1,0 +1,358 @@
+{
+  "timestamp": "2026-02-25T19:03:14.729078+00:00",
+  "total_fetched": 426,
+  "after_dedup": 50,
+  "candidates": [
+    {
+      "title": "Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning",
+      "url": "https://arxiv.org/abs/2602.20197",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Discrete Diffusion with Sample-Efficient Estimators for Conditionals",
+      "url": "https://arxiv.org/abs/2602.20293",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Emergent Manifold Separability during Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2602.20338",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": true
+    },
+    {
+      "title": "Hierarchical Molecular Representation Learning via Fragment-Based Self-Supervised Embedding Prediction",
+      "url": "https://arxiv.org/abs/2602.20344",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Diffusion Modulation via Environment Mechanism Modeling for Planning",
+      "url": "https://arxiv.org/abs/2602.20422",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Implicit Intelligence -- Evaluating Agents on What Users Don't Say",
+      "url": "https://arxiv.org/abs/2602.20424",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use",
+      "url": "https://arxiv.org/abs/2602.20426",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "PreScience: A Benchmark for Forecasting Scientific Contributions",
+      "url": "https://arxiv.org/abs/2602.20459",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Wireless Federated Multi-Task LLM Fine-Tuning via Sparse-and-Orthogonal LoRA",
+      "url": "https://arxiv.org/abs/2602.20492",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "KairosVL: Orchestrating Time Series and Semantics for Unified Reasoning",
+      "url": "https://arxiv.org/abs/2602.20494",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory",
+      "url": "https://arxiv.org/abs/2602.20502",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "CausalReasoningBenchmark: A Real-World Benchmark for Disentangled Evaluation of Causal Identification and Estimation",
+      "url": "https://arxiv.org/abs/2602.20571",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Benchmarking GNN Models on Molecular Regression Tasks with CKA-Based Representation Analysis",
+      "url": "https://arxiv.org/abs/2602.20573",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "TrajGPT-R: Generating Urban Mobility Trajectory with Reinforcement Learning-Enhanced Generative Pre-trained Transformer",
+      "url": "https://arxiv.org/abs/2602.20643",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "How Foundational Skills Influence VLM-based Embodied Agents:A Native Perspective",
+      "url": "https://arxiv.org/abs/2602.20687",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction",
+      "url": "https://arxiv.org/abs/2602.20708",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "WeirNet: A Large-Scale 3D CFD Benchmark for Geometric Surrogate Modeling of Piano Key Weirs",
+      "url": "https://arxiv.org/abs/2602.20714",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2602.20722",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "PyVision-RL: Forging Open Agentic Vision Models via RL",
+      "url": "https://arxiv.org/abs/2602.20739",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Probing Dec-POMDP Reasoning in Cooperative MARL",
+      "url": "https://arxiv.org/abs/2602.20804",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Qwen-BIM: developing large language model for BIM-based design with domain-specific benchmark and dataset",
+      "url": "https://arxiv.org/abs/2602.20812",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Diagnosing Causal Reasoning in Vision-Language Models via Structured Relevance Graphs",
+      "url": "https://arxiv.org/abs/2602.20878",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Transcoder Adapters for Reasoning-Model Diffing",
+      "url": "https://arxiv.org/abs/2602.20904",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "HELP: HyperNode Expansion and Logical Path-Guided Evidence Localization for Accurate and Efficient GraphRAG",
+      "url": "https://arxiv.org/abs/2602.20926",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Architecting AgentOS: From Token-Level Context to Emergent System-Level Intelligence",
+      "url": "https://arxiv.org/abs/2602.20934",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Matching Multiple Experts: On the Exploitability of Multi-Agent Imitation Learning",
+      "url": "https://arxiv.org/abs/2602.21020",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "LogicGraph : Benchmarking Multi-Path Logical Reasoning via Neuro-Symbolic Generation and Verification",
+      "url": "https://arxiv.org/abs/2602.21044",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Scaling Vision Transformers: Evaluating DeepSpeed for Image-Centric Workloads",
+      "url": "https://arxiv.org/abs/2602.21081",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "A Benchmark for Deep Information Synthesis",
+      "url": "https://arxiv.org/abs/2602.21143",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "SELAUR: Self Evolving LLM Agent via Uncertainty-aware Rewards",
+      "url": "https://arxiv.org/abs/2602.21158",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning",
+      "url": "https://arxiv.org/abs/2602.21172",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "The Diffusion Duality, Chapter II: $\\Psi$-Samplers and Efficient Curriculum",
+      "url": "https://arxiv.org/abs/2602.21185",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Multimodal Multi-Agent Empowered Legal Judgment Prediction",
+      "url": "https://arxiv.org/abs/2601.12815",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Benchmarking Distilled Language Models: Performance and Efficiency in Resource-Constrained Settings",
+      "url": "https://arxiv.org/abs/2602.20164",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Benchmarking Early Deterioration Prediction Across Hospital-Rich and MCI-Like Emergency Triage Under Constrained Sensing",
+      "url": "https://arxiv.org/abs/2602.20168",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation",
+      "url": "https://arxiv.org/abs/2602.20170",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "When Backdoors Go Beyond Triggers: Semantic Drift in Diffusion Models Under Encoder Attacks",
+      "url": "https://arxiv.org/abs/2602.20193",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "OpenPort Protocol: A Security Governance Specification for AI Agent Tool Access",
+      "url": "https://arxiv.org/abs/2602.20196",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Regressor-guided Diffusion Model for De Novo Peptide Sequencing with Explicit Mass Control",
+      "url": "https://arxiv.org/abs/2602.20209",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Right to History: A Sovereignty Kernel for Verifiable AI Agent Execution",
+      "url": "https://arxiv.org/abs/2602.20214",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Quantifying the Expectation-Realisation Gap for Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2602.20292",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Case-Aware LLM-as-a-Judge Evaluation for Enterprise-Scale RAG Systems",
+      "url": "https://arxiv.org/abs/2602.20379",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "PhyGHT: Physics-Guided HyperGraph Transformer for Signal Purification at the HL-LHC",
+      "url": "https://arxiv.org/abs/2602.20475",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Hybrid LLM-Embedded Dialogue Agents for Learner Reflection: Designing Responsive and Theory-Driven Interactions",
+      "url": "https://arxiv.org/abs/2602.20486",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "LESA: Learnable Stage-Aware Predictors for Diffusion Model Acceleration",
+      "url": "https://arxiv.org/abs/2602.20497",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning",
+      "url": "https://arxiv.org/abs/2602.20528",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "Standard Transformers Achieve the Minimax Rate in Nonparametric Regression with $C^{s,\\lambda}$ Targets",
+      "url": "https://arxiv.org/abs/2602.20555",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs",
+      "url": "https://arxiv.org/abs/2602.20720",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition",
+      "url": "https://arxiv.org/abs/2602.20735",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    },
+    {
+      "title": "OrthoDiffusion: A Generalizable Multi-Task Diffusion Foundation Model for Musculoskeletal MRI Interpretation",
+      "url": "https://arxiv.org/abs/2602.20752",
+      "source": "ArXiv CS.AI+CS.LG",
+      "score": 7.11,
+      "selected": false
+    }
+  ],
+  "drafts_generated": 1
+}

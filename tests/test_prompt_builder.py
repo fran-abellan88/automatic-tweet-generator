@@ -15,7 +15,7 @@ def _make_item(title: str = "Test Article", source: str = "Test Source") -> News
 class TestBuildPrompt:
     def test_contains_system_instructions(self) -> None:
         prompt = build_prompt([_make_item()])
-        assert "STYLE RULES" in prompt
+        assert "STRUCTURAL RULES" in prompt
         assert "JSON" in prompt
         assert "hashtags" in prompt
 

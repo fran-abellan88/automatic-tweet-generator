@@ -39,3 +39,21 @@ def publish_tweet(text: str, url: str) -> str:
     tweet_id = str(response.data["id"])
     logger.info("Published tweet %s", tweet_id)
     return tweet_id
+
+
+def publish_thread(tweets: list[str], url: str) -> str:
+    client = _get_client()
+
+    resp = client.create_tweet(text=tweets[0])
+    root_id = str(resp.data["id"])
+    parent_id = root_id
+
+    for tweet in tweets[1:-1]:
+        resp = client.create_tweet(text=tweet, in_reply_to_tweet_id=parent_id)
+        parent_id = str(resp.data["id"])
+
+    last = build_tweet_text(tweets[-1], url)
+    client.create_tweet(text=last, in_reply_to_tweet_id=parent_id)
+
+    logger.info("Published thread (root=%s, %d tweets)", root_id, len(tweets))
+    return root_id

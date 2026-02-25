@@ -3,7 +3,7 @@ import logging
 from src.models import TweetStatus
 from src.storage.state import load_state, save_state
 from src.telegram.bot import check_approvals, send_notification
-from src.twitter.publisher import publish_tweet
+from src.twitter.publisher import publish_thread, publish_tweet
 
 logging.basicConfig(
     level=logging.INFO,
@@ -50,12 +50,17 @@ def run() -> None:
             continue
 
         try:
-            tweet_id = publish_tweet(draft.tweet_text, draft.news_url)
+            if draft.is_thread:
+                tweet_id = publish_thread(draft.thread_tweets, draft.news_url)
+                kind = "Thread"
+            else:
+                tweet_id = publish_tweet(draft.tweet_text, draft.news_url)
+                kind = "Tweet"
             draft.mark_published(tweet_id)
             published_count += 1
-            logger.info("Published tweet %s: %s", tweet_id, draft.news_title)
+            logger.info("Published %s %s: %s", kind.lower(), tweet_id, draft.news_title)
 
-            send_notification(f"✅ Tweet published: {draft.tweet_text[:100]}...")
+            send_notification(f"✅ {kind} published: {draft.tweet_text[:100]}...")
         except Exception:
             logger.exception("Failed to publish tweet: %s", draft.news_title)
 

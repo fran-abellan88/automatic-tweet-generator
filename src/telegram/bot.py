@@ -32,13 +32,31 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
     cat_label = draft.category.value.upper()
     score_display = f"{draft.source_score:.2f}"
 
-    text = (
-        f"{cat_emoji} <b>{cat_label}</b> | Score: {score_display}\n\n"
-        f"{_escape_html(draft.tweet_text)}\n\n"
-        f"📰 {_escape_html(draft.news_title)}\n"
-        f"🔗 {draft.news_url}\n\n"
-        "<i>Reply ✅ to approve or ❌ to reject</i>"
-    )
+    if draft.is_thread:
+        n = len(draft.thread_tweets)
+        header = (
+            f"{cat_emoji} <b>{cat_label}</b> | Score: {score_display}"
+            f" | 🧵 Thread ({n} tweets)"
+        )
+        tweets_preview = "\n\n".join(
+            f"[{i + 1}/{n}] {_escape_html(tweet)}"
+            for i, tweet in enumerate(draft.thread_tweets)
+        )
+        text = (
+            f"{header}\n\n"
+            f"{tweets_preview}\n\n"
+            f"📰 {_escape_html(draft.news_title)}\n"
+            f"🔗 {draft.news_url}\n\n"
+            "<i>Reply ✅ to approve or ❌ to reject</i>"
+        )
+    else:
+        text = (
+            f"{cat_emoji} <b>{cat_label}</b> | Score: {score_display}\n\n"
+            f"{_escape_html(draft.tweet_text)}\n\n"
+            f"📰 {_escape_html(draft.news_title)}\n"
+            f"🔗 {draft.news_url}\n\n"
+            "<i>Reply ✅ to approve or ❌ to reject</i>"
+        )
 
     url = f"{TELEGRAM_API.format(token=token)}/sendMessage"
     response = httpx.post(
@@ -111,12 +129,6 @@ def send_notification(text: str, token: str = "", chat_id: str = "") -> None:
         url,
         json={"chat_id": chat_id, "text": text, "parse_mode": "HTML"},
         timeout=HTTP_TIMEOUT,
-    )
-    print(
-        f"DEBUG: Telegram response status={response.status_code}, body={response.text}"
-    )
-    logger.error(
-        "Telegram response status=%d, body=%s", response.status_code, response.text
     )
     response.raise_for_status()
 

@@ -74,7 +74,8 @@ def classify_content(source: str, title: str) -> ContentCategory:
 class TweetDraft(BaseModel):
     news_url: str
     news_title: str
-    tweet_text: str
+    tweet_text: str = ""
+    thread_tweets: list[str] = []
     source_score: float = 0.0
     category: ContentCategory = ContentCategory.NEWS
     status: TweetStatus = TweetStatus.PENDING
@@ -82,6 +83,10 @@ class TweetDraft(BaseModel):
     created_at: str = ""
     published_at: str | None = None
     tweet_id: str | None = None
+
+    @property
+    def is_thread(self) -> bool:
+        return len(self.thread_tweets) > 1
 
     def mark_approved(self) -> None:
         self.status = TweetStatus.APPROVED
