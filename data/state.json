@@ -117,18 +117,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
-      "news_title": "Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model",
-      "tweet_text": "Spanish startup Multiverse Computing drops HyperNova 60B on Hugging Face. Compressed model, open access, claims to beat Mistral. Another data point in the open model performance race.",
-      "source_score": 9.44,
-      "category": "release",
-      "status": "pending",
-      "telegram_message_id": 573,
-      "created_at": "2026-02-25T10:53:42.684242+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://arxiv.org/abs/2602.20197",
       "news_title": "Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning",
       "tweet_text": "ArXiv paper on controllable exploration in RLVR for multi-modal reasoning. The work on making complex AI systems predictable continues. Always a good sign. #ML",
@@ -189,7 +177,19 @@
       "created_at": "2026-02-24T18:19:19.547520+00:00",
       "published_at": "2026-02-24T19:30:13.507500",
       "tweet_id": "2026379154275316119"
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
+      "news_title": "Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model",
+      "tweet_text": "Spanish startup Multiverse Computing drops HyperNova 60B on Hugging Face. Compressed model, open access, claims to beat Mistral. Another data point in the open model performance race.",
+      "source_score": 9.44,
+      "category": "release",
+      "status": "published",
+      "telegram_message_id": 573,
+      "created_at": "2026-02-25T10:53:42.684242+00:00",
+      "published_at": "2026-02-25T11:36:54.619391",
+      "tweet_id": "2026622428395208960"
     }
   ],
-  "last_telegram_update_id": 761143070
+  "last_telegram_update_id": 761143071
 }
