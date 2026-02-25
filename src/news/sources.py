@@ -54,4 +54,10 @@ SOURCES: list[NewsSource] = [
         "news",
         0.8,
     ),
+    NewsSource(
+        "Daily Dose of Data Science",
+        "https://blog.dailydoseofds.com/feed",
+        "blog",
+        0.75,
+    ),
 ]
