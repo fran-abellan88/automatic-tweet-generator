@@ -50,4 +50,4 @@ fi
 ok "State file ready"
 
 echo ""
-python -m src.workflows.generate
+python -m src.workflows.generate "$@"

@@ -1,3 +1,4 @@
+import argparse
 import logging
 import sys
 from datetime import datetime, timezone
@@ -7,7 +8,7 @@ from src.generation.generator import generate_tweets
 from src.models import RunLog, ScoredCandidate, classify_content
 from src.news.ranker import rank_and_filter
 from src.news.rss_parser import fetch_all_feeds
-from src.news.sources import SOURCES
+from src.news.sources import SOURCES, NewsSource
 from src.storage.state import load_state, save_run_log, save_state
 from src.telegram.bot import send_draft
 
@@ -18,19 +19,63 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate tweet drafts from RSS feeds."
+    )
+    parser.add_argument(
+        "--sources",
+        nargs="+",
+        metavar="NAME",
+        help=(
+            "Restrict to specific source names, e.g. --sources 'Claude Blog' 'Anthropic News'. "
+            "Use --list-sources to see all available names."
+        ),
+    )
+    parser.add_argument(
+        "--list-sources",
+        action="store_true",
+        help="Print all available source names and exit.",
+    )
+    return parser.parse_args()
+
+
+def _resolve_sources(names: list[str]) -> list[NewsSource]:
+    requested = {n.lower() for n in names}
+    matched = [s for s in SOURCES if s.name.lower() in requested]
+    unknown = requested - {s.name.lower() for s in matched}
+    if unknown:
+        logger.warning("Unknown source names (ignored): %s", ", ".join(sorted(unknown)))
+    if not matched:
+        logger.error("No valid sources matched. Use --list-sources to see available names.")
+        sys.exit(1)
+    logger.info("Filtering to sources: %s", [s.name for s in matched])
+    return matched
+
+
 def run() -> None:
+    args = _parse_args()
+
+    if args.list_sources:
+        print("Available sources:")
+        for s in SOURCES:
+            print(f"  {s.name!r}  [{s.category}, weight={s.weight}]")
+        return
+
+    active_sources = _resolve_sources(args.sources) if args.sources else list(SOURCES)
+
     logger.info("Starting tweet generation workflow")
 
     state = load_state()
 
     # 1. Scrape all RSS feeds
-    all_items = fetch_all_feeds(SOURCES)
+    all_items = fetch_all_feeds(active_sources)
     if not all_items:
         logger.warning("No news items fetched from any source")
         return
 
     # 2. Rank, filter, and deduplicate
-    top_items = rank_and_filter(all_items, SOURCES, state.seen_urls, max_items=MAX_DRAFTS_PER_RUN)
+    top_items = rank_and_filter(all_items, active_sources, state.seen_urls, max_items=MAX_DRAFTS_PER_RUN)
     if not top_items:
         logger.info("No new relevant items after filtering")
         return

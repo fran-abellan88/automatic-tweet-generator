@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-25T17:20:32.497951+00:00",
+  "total_fetched": 8,
+  "after_dedup": 8,
+  "candidates": [
+    {
+      "title": "Inference Characteristics of Llama-2",
+      "url": "https://cursor.com/blog/llama-inference",
+      "source": "Cursor Blog",
+      "score": 2.33,
+      "selected": true
+    },
+    {
+      "title": "Supermaven Joins Cursor",
+      "url": "https://cursor.com/blog/supermaven",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "We Raised $60M",
+      "url": "https://cursor.com/blog/series-a",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "Shadow Workspace: Iterating on Code in the Background",
+      "url": "https://cursor.com/blog/shadow-workspace",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "Our Problems (cont.)",
+      "url": "https://cursor.com/blog/problems-2024",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "Our Problems",
+      "url": "https://cursor.com/blog/problems-2023",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "We Raised $8M From OpenAI",
+      "url": "https://cursor.com/blog/openai-fund",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    },
+    {
+      "title": "Prompt Design",
+      "url": "https://cursor.com/blog/prompt-design",
+      "source": "Cursor Blog",
+      "score": 1.56,
+      "selected": false
+    }
+  ],
+  "drafts_generated": 1
+}

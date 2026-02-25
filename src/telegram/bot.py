@@ -26,7 +26,7 @@ def send_draft(draft: TweetDraft, token: str = "", chat_id: str = "") -> int:
     token = token or TELEGRAM_BOT_TOKEN
     chat_id = chat_id or TELEGRAM_CHAT_ID
 
-    logger.info("Sending draft: token=%s, chat_id=%s", bool(token), bool(chat_id))
+    logger.info("Sending draft to Telegram")
 
     cat_emoji = CATEGORY_EMOJI.get(draft.category, "📰")
     cat_label = draft.category.value.upper()

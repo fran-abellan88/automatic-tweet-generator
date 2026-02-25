@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-02-25T17:09:34.521637+00:00",
+  "total_fetched": 280,
+  "after_dedup": 3,
+  "candidates": [
+    {
+      "title": "Cowork and plugins for teams across the enterprise",
+      "url": "https://claude.com/blog/cowork-plugins-across-enterprise",
+      "source": "Claude Blog",
+      "score": 3.33,
+      "selected": true
+    },
+    {
+      "title": "Cowork and plugins for finance",
+      "url": "https://claude.com/blog/cowork-plugins-finance",
+      "source": "Claude Blog",
+      "score": 3.33,
+      "selected": false
+    },
+    {
+      "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "source": "Anthropic News",
+      "score": 3.33,
+      "selected": true
+    }
+  ],
+  "drafts_generated": 2
+}

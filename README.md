@@ -75,6 +75,19 @@ bash scripts/generate.sh
 
 After running, you will receive Telegram messages with draft tweets. Reply ✅ to approve or ❌ to reject each one.
 
+You can restrict generation to specific sources using `--sources`:
+
+```bash
+# List all available source names
+bash scripts/generate.sh --list-sources
+
+# Use only selected sources (useful for testing)
+bash scripts/generate.sh --sources "Claude Blog" "Anthropic News"
+bash scripts/generate.sh --sources "Cursor Blog"
+```
+
+Source name matching is case-insensitive.
+
 **Publish approved tweets:**
 ```bash
 bash scripts/publish.sh

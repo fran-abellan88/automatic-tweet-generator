@@ -20,12 +20,19 @@ Defined per source in [`src/news/sources.py`](../src/news/sources.py). Represent
 |---|---|
 | MIT Tech Review | 0.90 |
 | OpenAI Blog | 0.90 |
+| Claude Blog | 0.90 |
+| Anthropic News | 0.90 |
 | TechCrunch AI | 0.85 |
 | VentureBeat AI | 0.85 |
 | ArXiv CS.AI+CS.LG | 0.80 |
 | The Verge AI | 0.80 |
+| Google DeepMind | 0.80 |
+| MIT News AI | 0.80 |
 | Google AI Blog | 0.75 |
+| Microsoft AI Blog | 0.75 |
+| Daily Dose of Data Science | 0.75 |
 | Hugging Face Blog | 0.70 |
+| Cursor Blog | 0.70 |
 | Unknown source (fallback) | 0.50 |
 
 ---
@@ -53,7 +60,7 @@ Applied if any of the following keywords appear (case-insensitive) in the articl
 | Title contains a boost keyword | 1.5× |
 | No keyword match | 1.0× |
 
-**Current boost keywords:** `gpt`, `claude`, `gemini`, `llama`, `mistral`, `open source`, `benchmark`, `sota`, `release`, `launch`, `announcement`, `breakthrough`, `transformer`, `diffusion`, `agent`, `rag`, `fine-tuning`, `reasoning`
+**Current boost keywords:** `gpt`, `claude`, `claude code`, `opus`, `sonnet`, `codex`, `GLM`, `MiniMax`, `opencode`, `copilot`, `gemini`, `llama`, `mistral`, `open source`, `benchmark`, `sota`, `release`, `launch`, `announcement`, `breakthrough`, `transformer`, `diffusion`, `agent`, `rag`, `fine-tuning`, `reasoning`
 
 ---
 

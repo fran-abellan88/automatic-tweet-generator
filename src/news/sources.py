@@ -50,7 +50,7 @@ SOURCES: list[NewsSource] = [
     NewsSource("Google DeepMind", "https://deepmind.google/blog/rss.xml", "blog", 0.8),
     NewsSource(
         "MIT News AI",
-        "https://news.mit.edu/topic/artificial-intelligence2/feed",
+        "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",
         "news",
         0.8,
     ),
@@ -59,5 +59,18 @@ SOURCES: list[NewsSource] = [
         "https://blog.dailydoseofds.com/feed",
         "blog",
         0.75,
+    ),
+    NewsSource("Cursor Blog", "https://cursor.com/atom.xml", "blog", 0.7),
+    NewsSource(
+        "Claude Blog",
+        "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml",
+        "blog",
+        0.9,
+    ),
+    NewsSource(
+        "Anthropic News",
+        "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+        "news",
+        0.9,
     ),
 ]
