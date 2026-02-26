@@ -20,7 +20,10 @@
     "https://openai.com/index/arvind-kc-chief-people-officer",
     "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
     "https://arxiv.org/abs/2602.20293",
-    "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/"
+    "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/",
+    "https://arxiv.org/abs/2602.21317",
+    "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+    "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/"
   ],
   "pending_drafts": [
     {
@@ -182,6 +185,51 @@
       "status": "pending",
       "telegram_message_id": 594,
       "created_at": "2026-02-25T19:09:08.512131+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+      "news_title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’",
+      "tweet_text": "Another 'AI-fueled coach' wearable. CUDIS health ring incentivizes with points. The 'AI' often refers to a rules engine and data aggregation. Keep expectations grounded.",
+      "thread_tweets": [],
+      "source_score": 7.56,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 597,
+      "created_at": "2026-02-26T10:49:41.746117+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
+      "news_title": "A more intelligent Android on Samsung Galaxy S26",
+      "tweet_text": "Samsung Galaxy S26 gets a 'more intelligent Android' from Google. Focus is on image recognition. 'Intelligent' is doing a lot of heavy lifting when it refers to classifying objects in photos.",
+      "thread_tweets": [],
+      "source_score": 4.44,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 598,
+      "created_at": "2026-02-26T10:49:41.746117+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.21317",
+      "news_title": "Shared Nature, Unique Nurture: PRISM for Pluralistic Reasoning via In-context Structure Modeling",
+      "tweet_text": "LLMs excel at answering, less so at diverse thinking. They're converging on a 'singular artificial hivemind,' which stifles true exploration.",
+      "thread_tweets": [
+        "LLMs excel at answering, less so at diverse thinking. They're converging on a 'singular artificial hivemind,' which stifles true exploration.",
+        "The issue isn't just a lack of new data. Shared pre-training priors, their 'Nature,' lead to a profound collapse of diverse outputs. They all start from the same place.",
+        "Their PRISM approach addresses this with 'inference-time Nurture.' It guides LLMs to explore diverse perspectives, not by changing pre-training, but by modeling structure during inference.",
+        "This 'Nurture' uses in-context structure modeling. Providing unique scaffolding during inference, it encourages distinct reasoning paths for the same problem. Not just different words, but different viewpoints.",
+        "For practitioners, this means models that can genuinely explore diverse solutions, not just rephrasing a single perspective. Better for complex decision-making, scientific exploration, and avoiding AI groupthink."
+      ],
+      "source_score": 8.89,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 599,
+      "created_at": "2026-02-26T10:49:54.197690+00:00",
       "published_at": null,
       "tweet_id": null
     }
