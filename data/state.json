@@ -26,7 +26,10 @@
     "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
     "https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/",
     "https://arxiv.org/abs/2602.21319",
-    "https://blog.dailydoseofds.com/p/cut-openclaw-bill-by-50"
+    "https://blog.dailydoseofds.com/p/cut-openclaw-bill-by-50",
+    "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
+    "https://blog.dailydoseofds.com/p/art-train-agents-that-can-learn-from",
+    "https://arxiv.org/abs/2602.21320"
   ],
   "pending_drafts": [
     {
@@ -252,6 +255,51 @@
       "status": "pending",
       "telegram_message_id": 604,
       "created_at": "2026-02-26T12:00:53.245257+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedu\rles-and-answers/",
+      "news_title": "Read AI launches an email-based ‘digital twin’ to help you with schedules and answers",
+      "tweet_text": "Read AI launches an email \"digital twin\" for scheduling and answering. Another take on automating communications. The line between helpful agent and email bot can be thin.",
+      "thread_tweets": [],
+      "source_score": 0.0,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 607,
+      "created_at": "2026-02-26T18:55:06.886084+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://blog.dailydoseofds.com/p/art-train-agents-that-can-learn-from",
+      "news_title": "ART: Train Agents That Can Learn From Experience",
+      "tweet_text": "ART framework for training agents that learn from experience, with local code examples. Moving beyond static models to more adaptive systems is the practical next step for many. #AI",
+      "thread_tweets": [],
+      "source_score": 8.33,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 608,
+      "created_at": "2026-02-26T18:55:06.886084+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.21320",
+      "news_title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+      "tweet_text": "LLM agents learning to use tools, from scratch, seems less like a training run and more like watching a toddler figure out a remote control.",
+      "thread_tweets": [
+        "LLM agents learning to use tools, from scratch, seems less like a training run and more like watching a toddler figure out a remote control.",
+        "Current methods for LLM agent tool-learning often demand extensive, curated datasets of task-solution pairs. A significant bottleneck for real-world deployment.",
+        "Tool-R0 introduces a self-evolving framework. LLM agents generate their own training data, learn from feedback, and refine tool-use strategies without human-annotated examples.",
+        "This iterative self-improvement allows agents to adapt to new tools and environments. Essentially, they teach themselves how to use the hammer, then how to use the wrench.",
+        "For practitioners, this means potentially faster LLM agent deployment. Less time on data curation, more on defining the problems for autonomous systems to solve. A quieter revolution. #LLMAgents"
+      ],
+      "source_score": 7.11,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 609,
+      "created_at": "2026-02-26T18:55:13.180031+00:00",
       "published_at": null,
       "tweet_id": null
     }
