@@ -189,19 +189,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
-      "news_title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’",
-      "tweet_text": "Another 'AI-fueled coach' wearable. CUDIS health ring incentivizes with points. The 'AI' often refers to a rules engine and data aggregation. Keep expectations grounded.",
-      "thread_tweets": [],
-      "source_score": 7.56,
-      "category": "release",
-      "status": "pending",
-      "telegram_message_id": 597,
-      "created_at": "2026-02-26T10:49:41.746117+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
       "news_title": "A more intelligent Android on Samsung Galaxy S26",
       "tweet_text": "Samsung Galaxy S26 gets a 'more intelligent Android' from Google. Focus is on image recognition. 'Intelligent' is doing a lot of heavy lifting when it refers to classifying objects in photos.",
@@ -288,5 +275,5 @@
       "tweet_id": "2026622428395208960"
     }
   ],
-  "last_telegram_update_id": 761143075
+  "last_telegram_update_id": 761143076
 }
