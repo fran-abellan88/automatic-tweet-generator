@@ -29,7 +29,10 @@
     "https://blog.dailydoseofds.com/p/cut-openclaw-bill-by-50",
     "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
     "https://blog.dailydoseofds.com/p/art-train-agents-that-can-learn-from",
-    "https://arxiv.org/abs/2602.21320"
+    "https://arxiv.org/abs/2602.21320",
+    "https://arxiv.org/abs/2602.22268",
+    "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
+    "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/"
   ],
   "pending_drafts": [
     {
@@ -281,6 +284,51 @@
       "status": "pending",
       "telegram_message_id": 608,
       "created_at": "2026-02-26T18:55:06.886084+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
+      "news_title": "Mistral AI inks a deal with global consulting giant Accenture: Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
+      "tweet_text": "Accenture adding Mistral to its AI partnerships, alongside OpenAI and Anthropic. Standard play for a major consultant hedging against shifts in the vendor landscape. Sensible.",
+      "thread_tweets": [],
+      "source_score": 7.56,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 615,
+      "created_at": "2026-02-27T10:40:14.243512+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "news_title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.: <img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat",
+      "tweet_text": "Google and the MA AI Hub launching an AI training initiative for Massachusetts residents. Another sign of the enterprise push to get everyone vaguely familiar with the tech. Scale matters.",
+      "thread_tweets": [],
+      "source_score": 6.67,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 616,
+      "created_at": "2026-02-27T10:40:14.243512+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.22268",
+      "news_title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning: arXiv:2602.22268v1 Announce Type: new",
+      "tweet_text": "LoRA and quantization are typically sequential steps. This paper questions that pipeline.",
+      "thread_tweets": [
+        "LoRA and quantization are typically sequential steps. This paper questions that pipeline.",
+        "Current LLM fine-tuning often quantizes first, then applies LoRA. This sequential approach misses potential synergy between the two techniques.",
+        "AutoQRA demonstrates that jointly optimizing mixed-precision quantization *and* LoRA rank yields better downstream performance for a given memory budget.",
+        "Specifically, this joint allocation finds a superior trade-off, delivering more accuracy without needing additional parameters or VRAM.",
+        "For practitioners, this means more robust LLM adaptation on smaller hardware. A step towards genuinely efficient inference."
+      ],
+      "source_score": 8.89,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 617,
+      "created_at": "2026-02-27T10:40:23.654362+00:00",
       "published_at": null,
       "tweet_id": null
     }
