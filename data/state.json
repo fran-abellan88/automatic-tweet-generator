@@ -347,25 +347,6 @@
       "created_at": "2026-02-27T18:46:54.856462+00:00",
       "published_at": null,
       "tweet_id": null
-    },
-    {
-      "news_url": "https://arxiv.org/abs/2602.22273",
-      "news_title": "FIRE: A Comprehensive Benchmark for Financial Intelligence and Reasoning Evaluation",
-      "tweet_text": "Another day, another LLM benchmark. This one targets finance, which is certainly a place where 'hallucinations' have tangible costs.",
-      "thread_tweets": [
-        "Another day, another LLM benchmark. This one targets finance, which is certainly a place where 'hallucinations' have tangible costs.",
-        "Current LLM benchmarks often miss the mark on domain-specific reasoning. Finance, with its complex regulations and jargon, is a prime candidate for failure modes.",
-        "The FIRE benchmark assesses LLMs on two fronts: theoretical financial exams and practical business cases. Real-world financial accuracy remains a significant challenge.",
-        "It pulls questions from established financial qualification exams, which is a sensible way to test actual domain understanding. Not just memorization.",
-        "For anyone deploying LLMs in finance, benchmarks like FIRE highlight where the models are currently unreliable. Useful for setting realistic expectations and identifying areas for specialized fine-tuning."
-      ],
-      "source_score": 7.11,
-      "category": "research",
-      "status": "pending",
-      "telegram_message_id": 622,
-      "created_at": "2026-02-27T18:47:02.207947+00:00",
-      "published_at": null,
-      "tweet_id": null
     }
   ],
   "published_tweets": [
@@ -467,5 +448,5 @@
       "tweet_id": "2027345003065061651"
     }
   ],
-  "last_telegram_update_id": 761143079
+  "last_telegram_update_id": 761143080
 }
