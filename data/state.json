@@ -32,7 +32,10 @@
     "https://arxiv.org/abs/2602.21320",
     "https://arxiv.org/abs/2602.22268",
     "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
-    "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/"
+    "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+    "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
+    "https://blog.dailydoseofds.com/p/upgrading-the-huggingface-fine-tuning",
+    "https://arxiv.org/abs/2602.22273"
   ],
   "pending_drafts": [
     {
@@ -316,6 +319,51 @@
       "status": "pending",
       "telegram_message_id": 617,
       "created_at": "2026-02-27T10:40:23.654362+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
+      "news_title": "ChatGPT reaches 900M weekly active users: OpenAI shared the new numbers as part of its announcement that it has raised $110 billion in private funding.",
+      "tweet_text": "900M weekly active users for ChatGPT. And $110B in funding. Scale is one thing; consistent value proposition is another. The numbers are certainly there.",
+      "thread_tweets": [],
+      "source_score": 9.44,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 620,
+      "created_at": "2026-02-27T18:46:54.856462+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://blog.dailydoseofds.com/p/upgrading-the-huggingface-fine-tuning",
+      "news_title": "Upgrading the HuggingFace Fine-Tuning Skill: ...using just one MCP server!",
+      "tweet_text": "Someone managed to upgrade HuggingFace fine-tuning using just one MCP server. Practical application over raw compute, a welcome shift in focus.",
+      "thread_tweets": [],
+      "source_score": 8.33,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 621,
+      "created_at": "2026-02-27T18:46:54.856462+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://arxiv.org/abs/2602.22273",
+      "news_title": "FIRE: A Comprehensive Benchmark for Financial Intelligence and Reasoning Evaluation",
+      "tweet_text": "Another day, another LLM benchmark. This one targets finance, which is certainly a place where 'hallucinations' have tangible costs.",
+      "thread_tweets": [
+        "Another day, another LLM benchmark. This one targets finance, which is certainly a place where 'hallucinations' have tangible costs.",
+        "Current LLM benchmarks often miss the mark on domain-specific reasoning. Finance, with its complex regulations and jargon, is a prime candidate for failure modes.",
+        "The FIRE benchmark assesses LLMs on two fronts: theoretical financial exams and practical business cases. Real-world financial accuracy remains a significant challenge.",
+        "It pulls questions from established financial qualification exams, which is a sensible way to test actual domain understanding. Not just memorization.",
+        "For anyone deploying LLMs in finance, benchmarks like FIRE highlight where the models are currently unreliable. Useful for setting realistic expectations and identifying areas for specialized fine-tuning."
+      ],
+      "source_score": 7.11,
+      "category": "research",
+      "status": "pending",
+      "telegram_message_id": 622,
+      "created_at": "2026-02-27T18:47:02.207947+00:00",
       "published_at": null,
       "tweet_id": null
     }
