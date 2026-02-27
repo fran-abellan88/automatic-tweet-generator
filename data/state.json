@@ -301,19 +301,6 @@
       "tweet_id": null
     },
     {
-      "news_url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
-      "news_title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.: <img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat",
-      "tweet_text": "Google and the MA AI Hub launching an AI training initiative for Massachusetts residents. Another sign of the enterprise push to get everyone vaguely familiar with the tech. Scale matters.",
-      "thread_tweets": [],
-      "source_score": 6.67,
-      "category": "release",
-      "status": "pending",
-      "telegram_message_id": 616,
-      "created_at": "2026-02-27T10:40:14.243512+00:00",
-      "published_at": null,
-      "tweet_id": null
-    },
-    {
       "news_url": "https://arxiv.org/abs/2602.22268",
       "news_title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning: arXiv:2602.22268v1 Announce Type: new",
       "tweet_text": "LoRA and quantization are typically sequential steps. This paper questions that pipeline.",
@@ -417,7 +404,20 @@
       "created_at": "2026-02-26T18:55:13.180031+00:00",
       "published_at": "2026-02-26T19:40:07.147932",
       "tweet_id": "2027106416801259757"
+    },
+    {
+      "news_url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "news_title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.: <img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat",
+      "tweet_text": "Google and the MA AI Hub launching an AI training initiative for Massachusetts residents. Another sign of the enterprise push to get everyone vaguely familiar with the tech. Scale matters.",
+      "thread_tweets": [],
+      "source_score": 6.67,
+      "category": "release",
+      "status": "published",
+      "telegram_message_id": 616,
+      "created_at": "2026-02-27T10:40:14.243512+00:00",
+      "published_at": "2026-02-27T11:28:09.778174",
+      "tweet_id": "2027345003065061651"
     }
   ],
-  "last_telegram_update_id": 761143078
+  "last_telegram_update_id": 761143079
 }
