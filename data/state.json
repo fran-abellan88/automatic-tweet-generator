@@ -35,7 +35,9 @@
     "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
     "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
     "https://blog.dailydoseofds.com/p/upgrading-the-huggingface-fine-tuning",
-    "https://arxiv.org/abs/2602.22273"
+    "https://arxiv.org/abs/2602.22273",
+    "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
+    "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock"
   ],
   "pending_drafts": [
     {
@@ -345,6 +347,32 @@
       "status": "pending",
       "telegram_message_id": 621,
       "created_at": "2026-02-27T18:46:54.856462+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
+      "news_title": "MIT Technology Review is a 2026 ASME finalist in reporting: The American Society of Magazine Editors has named MIT Technology Review as a finalist for a 2026 National Magazine Award in the reporting category. The shortlisted story—“We did the math on AI’s ene",
+      "tweet_text": "MIT Tech Review's reporting on AI's energy consumption is an ASME award finalist. Important topic getting some recognition. The hidden costs of scaling are becoming less hidden.",
+      "thread_tweets": [],
+      "source_score": 5.33,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 625,
+      "created_at": "2026-02-28T10:25:23.420523+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "news_title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock: Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "tweet_text": "OpenAI introducing a stateful runtime for agents on Amazon Bedrock. Persistent memory and orchestration for multi-step workflows. A necessary step for agents to move beyond short-lived demos. Infrastructure work.",
+      "thread_tweets": [],
+      "source_score": 5.0,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 626,
+      "created_at": "2026-02-28T10:25:23.420523+00:00",
       "published_at": null,
       "tweet_id": null
     }
