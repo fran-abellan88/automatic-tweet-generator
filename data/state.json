@@ -37,7 +37,9 @@
     "https://blog.dailydoseofds.com/p/upgrading-the-huggingface-fine-tuning",
     "https://arxiv.org/abs/2602.22273",
     "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
-    "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock"
+    "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+    "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
+    "https://openai.com/index/continuing-microsoft-partnership"
   ],
   "pending_drafts": [
     {
@@ -373,6 +375,32 @@
       "status": "pending",
       "telegram_message_id": 626,
       "created_at": "2026-02-28T10:25:23.420523+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
+      "news_title": "OpenAI’s Sam Altman announces Pentagon deal with ‘technical safeguards’",
+      "tweet_text": "OpenAI taking on Pentagon contracts. Altman mentions \"technical safeguards,\" echoing past debates about defense work in AI. Business as usual, perhaps, or a new ethical frontier.",
+      "thread_tweets": [],
+      "source_score": 6.3,
+      "category": "release",
+      "status": "pending",
+      "telegram_message_id": 627,
+      "created_at": "2026-02-28T18:35:26.325281+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://openai.com/index/continuing-microsoft-partnership",
+      "news_title": "Joint Statement from OpenAI and Microsoft",
+      "tweet_text": "OpenAI and Microsoft released a joint statement reaffirming \"years of deep collaboration.\" Less an announcement, more a reminder. The partnership continues, for those who were wondering.",
+      "thread_tweets": [],
+      "source_score": 3.33,
+      "category": "blog",
+      "status": "pending",
+      "telegram_message_id": 628,
+      "created_at": "2026-02-28T18:35:26.325281+00:00",
       "published_at": null,
       "tweet_id": null
     }
