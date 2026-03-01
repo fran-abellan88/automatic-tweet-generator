@@ -39,7 +39,9 @@
     "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
     "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
     "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
-    "https://openai.com/index/continuing-microsoft-partnership"
+    "https://openai.com/index/continuing-microsoft-partnership",
+    "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+    "https://openai.com/index/our-agreement-with-the-department-of-war"
   ],
   "pending_drafts": [
     {
@@ -388,6 +390,32 @@
       "status": "pending",
       "telegram_message_id": 628,
       "created_at": "2026-02-28T18:35:26.325281+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+      "news_title": "Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute",
+      "tweet_text": "Claude moving up the App Store rankings. Coincidence with the Pentagon dispute? Or just proof that all attention is good attention. Probably the latter.",
+      "thread_tweets": [],
+      "source_score": 7.56,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 632,
+      "created_at": "2026-03-01T10:26:59.544917+00:00",
+      "published_at": null,
+      "tweet_id": null
+    },
+    {
+      "news_url": "https://openai.com/index/our-agreement-with-the-department-of-war/",
+      "news_title": "Our agreement with the Department of War: Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+      "tweet_text": "OpenAI's agreement with the Department of War is public. Safety protocols, classified deployment. Another step into the defense sector for major AI labs. #AI",
+      "thread_tweets": [],
+      "source_score": 0.0,
+      "category": "news",
+      "status": "pending",
+      "telegram_message_id": 633,
+      "created_at": "2026-03-01T10:26:59.544917+00:00",
       "published_at": null,
       "tweet_id": null
     }
